@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    color: #F08080;
+    font-size: 25px;
+    
+    text-align: center;
+}
+
+main{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #00FA9A, #4169E1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass{
+    min-height: 80vh;
+    background: linear-gradient(to right, #E0FFFF, #FFFAFA);
+    width: 60%;
+    border-radius: 5rem;
+    display: flex;
+}
+
+.botoes{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    border-right: 2px solid #4B0082;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+
+.botao button{
+    width: 100px;
+    height: 50px;
+    
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+
+.tela_respostas{
+    width:70%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(to top,
+     #F0E68C,
+     #F0F8FF);
+     border-radius: 0 5rem 5rem 0;
+     padding: 2% 2%;
+}
+
+.tela{
+    background: linear-gradient(to left,
+     #FAEBD7,
+     #B0E0E6 );
+     width: 90%;
+     height: 90%;
+     border-radius: 2rem;
+     color: #4B0082;
+     font-size: 20px;
+     padding: 2% 2%;
+     display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+}
+
+.slides{
+    width: 90%;
+    height: 90%;
+    background: #B0E0E6;
+    border-radius: 2rem;
+    
+    
+}
+
+.slides img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 2rem;
+    display: none;
+   
+}
+
+.dots{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: absolute;
+    bottom: 50px;
+    width: 80%;
+    height: 23px;
+  
+}
+
+.dot{
+    width: 20px;
+    height: 20px;
+    background: darkslateblue;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.3;
+    margin-left: 5px;
+   display: none;
+}
+
+
+
+
+
+
+
+
+
+
